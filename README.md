@@ -23,3 +23,26 @@ This project aims to detect sign language gestures using a camera, translate the
    ```bash
    git clone https://github.com/yourusername/sign-language-detection.git
    cd sign-language-detection
+## Create a virtual environment:
+ python -m venv venv
+
+## Activate the virtual environment:
+
+## On Windows:
+
+bash
+venv\Scripts\activate
+On macOS/Linux:
+
+## On Mac
+bash
+source venv/bin/activate
+
+## Install the required dependencies:
+  bash
+  pip install tensorflow opencv-python mediapipe mysql-connector-python
+
+## Run the project:
+  bash
+  python app.py
+
